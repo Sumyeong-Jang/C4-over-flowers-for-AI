@@ -1,0 +1,1 @@
+Invoking command in '/home/piai/turtlebot3_ws/src/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/dashing CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/piai/turtlebot3_ws/src/turtlebot3/turtlebot3_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/piai/turtlebot3_ws/src/install/turtlebot3_description

@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/dashing/include/**",
+        "/home/piai/turtlebot3_ws/src/DynamixelSDK/dynamixel_sdk/include/**",
+        "/home/piai/turtlebot3_ws/src/DynamixelSDK/dynamixel_sdk_examples/include/**",
+        "/home/piai/turtlebot3_ws/src/turtlebot3/turtlebot3_node/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

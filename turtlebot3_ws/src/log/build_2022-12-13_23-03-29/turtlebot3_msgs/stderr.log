@@ -1,0 +1,34 @@
+CMake Error at /opt/ros/dashing/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+  execute_process(/home/piai/anaconda3/bin/python3 -m rosidl_adapter
+  --package-name turtlebot3_msgs --arguments-file
+  /home/piai/turtlebot3_ws/src/build/turtlebot3_msgs/rosidl_adapter__arguments__turtlebot3_msgs.json
+  --output-dir
+  /home/piai/turtlebot3_ws/src/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs
+  --output-file
+  /home/piai/turtlebot3_ws/src/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs.idls)
+  returned error code 1:
+
+  Traceback (most recent call last):
+
+    File "/home/piai/anaconda3/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+      return _run_code(code, main_globals, None,
+    File "/home/piai/anaconda3/lib/python3.9/runpy.py", line 87, in _run_code
+      exec(code, run_globals)
+    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+      sys.exit(main())
+    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/main.py", line 53, in main
+      abs_idl_file = convert_to_idl(
+    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/__init__.py", line 18, in convert_to_idl
+      from rosidl_adapter.msg import convert_msg_to_idl
+    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/msg/__init__.py", line 16, in <module>
+      from rosidl_adapter.resource import expand_template
+    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>
+      import em
+
+  ModuleNotFoundError: No module named 'em'
+
+Call Stack (most recent call first):
+  /opt/ros/dashing/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+  CMakeLists.txt:45 (rosidl_generate_interfaces)
+
+

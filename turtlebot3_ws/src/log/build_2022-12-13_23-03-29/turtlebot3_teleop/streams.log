@@ -1,0 +1,25 @@
+[0.732s] Invoking command in '/home/piai/turtlebot3_ws/src/build/turtlebot3_teleop': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/piai/turtlebot3_ws/src/build/turtlebot3_teleop/prefix_override:/home/piai/turtlebot3_ws/src/install/turtlebot3_teleop/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/piai/turtlebot3_ws/src/build/turtlebot3_teleop/build --no-deps install_data
+[0.984s] running develop
+[1.095s] running egg_info
+[1.095s] creating turtlebot3_teleop.egg-info
+[1.096s] writing turtlebot3_teleop.egg-info/PKG-INFO
+[1.096s] writing dependency_links to turtlebot3_teleop.egg-info/dependency_links.txt
+[1.096s] writing entry points to turtlebot3_teleop.egg-info/entry_points.txt
+[1.096s] writing requirements to turtlebot3_teleop.egg-info/requires.txt
+[1.097s] writing top-level names to turtlebot3_teleop.egg-info/top_level.txt
+[1.097s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.138s] reading manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.139s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.141s] running build_ext
+[1.141s] Creating /home/piai/turtlebot3_ws/src/install/turtlebot3_teleop/lib/python3.6/site-packages/site.py
+[1.142s] Creating /home/piai/turtlebot3_ws/src/install/turtlebot3_teleop/lib/python3.6/site-packages/turtlebot3-teleop.egg-link (link to .)
+[1.143s] Installing teleop_keyboard script to /home/piai/turtlebot3_ws/src/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[1.144s] 
+[1.144s] Installed /home/piai/turtlebot3_ws/src/build/turtlebot3_teleop
+[1.144s] running install_data
+[1.144s] creating /home/piai/turtlebot3_ws/src/install/turtlebot3_teleop/share/ament_index
+[1.144s] creating /home/piai/turtlebot3_ws/src/install/turtlebot3_teleop/share/ament_index/resource_index
+[1.145s] creating /home/piai/turtlebot3_ws/src/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[1.145s] copying resource/turtlebot3_teleop -> /home/piai/turtlebot3_ws/src/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[1.145s] copying package.xml -> /home/piai/turtlebot3_ws/src/install/turtlebot3_teleop/share/turtlebot3_teleop
+[1.179s] Invoked command in '/home/piai/turtlebot3_ws/src/build/turtlebot3_teleop' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/piai/turtlebot3_ws/src/build/turtlebot3_teleop/prefix_override:/home/piai/turtlebot3_ws/src/install/turtlebot3_teleop/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/piai/turtlebot3_ws/src/build/turtlebot3_teleop/build --no-deps install_data

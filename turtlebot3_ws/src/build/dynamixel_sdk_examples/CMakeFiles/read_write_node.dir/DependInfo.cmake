@@ -1,14 +1,19 @@
-
-# Consider dependencies only in project.
-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
-
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
   )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/piai/turtlebot3_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node.cpp" "/home/piai/turtlebot3_ws/src/build/dynamixel_sdk_examples/CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# The set of dependency files which are needed:
-set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/piai/turtlebot3_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node.cpp" "CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o" "gcc" "CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o.d"
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/home/piai/turtlebot3_ws/src/DynamixelSDK/dynamixel_sdk_examples/include"
+  "/home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include"
+  "/home/piai/turtlebot3_ws/src/install/dynamixel_sdk/include"
+  "/opt/ros/dashing/include"
   )
 
 # Targets to which this target links.

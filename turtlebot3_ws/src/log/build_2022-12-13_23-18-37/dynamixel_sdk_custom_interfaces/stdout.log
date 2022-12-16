@@ -1,0 +1,30 @@
+-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+-- Found PythonInterp: /home/piai/anaconda3/bin/python3 (found suitable version "3.9.15", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /home/piai/anaconda3/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found builtin_interfaces: 0.7.4 (/opt/ros/dashing/share/builtin_interfaces/cmake)
+-- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+-- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+-- Found PythonInterp: /home/piai/anaconda3/bin/python3 (found version "3.9.15") 
+-- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+-- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+-- Found PythonInterp: /home/piai/anaconda3/bin/python3 (found suitable version "3.9.15", minimum required is "3.5") 
+-- Found python_cmake_module: 0.7.11 (/opt/ros/dashing/share/python_cmake_module/cmake)
+-- Found PythonLibs: /home/piai/anaconda3/lib/libpython3.9.so (found suitable version "3.9.15", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /home/piai/anaconda3/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /home/piai/anaconda3/include/python3.9
+-- Using PYTHON_LIBRARIES: /home/piai/anaconda3/lib/libpython3.9.so
+-- Found PythonExtra: .so  
+-- Using numpy include directory: /home/piai/anaconda3/lib/python3.9/site-packages/numpy/core/include
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/piai/turtlebot3_ws/src/build/dynamixel_sdk_custom_interfaces
+[35m[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__cpp[0m
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/build.make:77: recipe for target 'rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position.h' failed
+CMakeFiles/Makefile2:105: recipe for target 'CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/all' failed
+CMakeFiles/dynamixel_sdk_custom_interfaces__cpp.dir/build.make:78: recipe for target 'rosidl_generator_cpp/dynamixel_sdk_custom_interfaces/msg/set_position.hpp' failed
+CMakeFiles/Makefile2:142: recipe for target 'CMakeFiles/dynamixel_sdk_custom_interfaces__cpp.dir/all' failed
+Makefile:140: recipe for target 'all' failed

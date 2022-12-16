@@ -1,0 +1,116 @@
+[0.066s] Invoking command in '/home/piai/turtlebot3_ws/src/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=/opt/ros/dashing CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/piai/turtlebot3_ws/src/turtlebot3_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/piai/turtlebot3_ws/src/install/turtlebot3_msgs
+[0.103s] -- Found action_msgs: 0.7.4 (/opt/ros/dashing/share/action_msgs/cmake)
+[0.127s] -- Found PythonInterp: /home/piai/anaconda3/bin/python3 (found suitable version "3.9.15", minimum required is "3") 
+[0.128s] -- Using PYTHON_EXECUTABLE: /home/piai/anaconda3/bin/python3
+[0.418s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.435s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.494s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.502s] -- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+[0.614s] -- Found std_msgs: 0.7.1 (/opt/ros/dashing/share/std_msgs/cmake)
+[0.660s] -- Found PythonInterp: /home/piai/anaconda3/bin/python3 (found version "3.9.15") 
+[0.949s] -- Found ament_cmake_cppcheck: 0.7.12 (/opt/ros/dashing/share/ament_cmake_cppcheck/cmake)
+[0.952s] -- Found ament_cmake_cpplint: 0.7.12 (/opt/ros/dashing/share/ament_cmake_cpplint/cmake)
+[0.954s] -- Found ament_cmake_uncrustify: 0.7.12 (/opt/ros/dashing/share/ament_cmake_uncrustify/cmake)
+[1.017s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[1.041s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[1.261s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[1.310s] -- Found PythonInterp: /home/piai/anaconda3/bin/python3 (found suitable version "3.9.15", minimum required is "3.5") 
+[1.314s] -- Found python_cmake_module: 0.7.11 (/opt/ros/dashing/share/python_cmake_module/cmake)
+[1.377s] -- Found PythonLibs: /home/piai/anaconda3/lib/libpython3.9.so (found suitable version "3.9.15", minimum required is "3.5") 
+[1.378s] -- Using PYTHON_EXECUTABLE: /home/piai/anaconda3/bin/python3
+[1.378s] -- Using PYTHON_INCLUDE_DIRS: /home/piai/anaconda3/include/python3.9
+[1.378s] -- Using PYTHON_LIBRARIES: /home/piai/anaconda3/lib/libpython3.9.so
+[1.421s] -- Found PythonExtra: .so  
+[2.044s] -- Using numpy include directory: /home/piai/anaconda3/lib/python3.9/site-packages/numpy/core/include
+[2.079s] -- Found ament_cmake_flake8: 0.7.12 (/opt/ros/dashing/share/ament_cmake_flake8/cmake)
+[2.082s] -- Found ament_cmake_pep257: 0.7.12 (/opt/ros/dashing/share/ament_cmake_pep257/cmake)
+[2.096s] -- Configuring done
+[2.165s] CMake Warning at /opt/ros/dashing/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:229 (add_library):
+[2.165s]   Cannot generate a safe runtime search path for target
+[2.165s]   turtlebot3_msgs__rosidl_typesupport_c__pyext because files in some
+[2.165s]   directories may conflict with libraries in implicit directories:
+[2.166s] 
+[2.166s]     runtime library [libssl.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.166s]       /home/piai/anaconda3/lib
+[2.166s]     runtime library [libcrypto.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.166s]       /home/piai/anaconda3/lib
+[2.167s] 
+[2.167s]   Some of these libraries may not be found correctly.
+[2.167s] Call Stack (most recent call first):
+[2.167s]   /opt/ros/dashing/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.168s]   /opt/ros/dashing/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.168s]   CMakeLists.txt:45 (rosidl_generate_interfaces)
+[2.168s] 
+[2.168s] 
+[2.188s] CMake Warning at /opt/ros/dashing/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:229 (add_library):
+[2.188s]   Cannot generate a safe runtime search path for target
+[2.189s]   turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext because files in some
+[2.189s]   directories may conflict with libraries in implicit directories:
+[2.189s] 
+[2.190s]     runtime library [libssl.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.190s]       /home/piai/anaconda3/lib
+[2.190s]     runtime library [libcrypto.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.190s]       /home/piai/anaconda3/lib
+[2.191s] 
+[2.191s]   Some of these libraries may not be found correctly.
+[2.191s] Call Stack (most recent call first):
+[2.191s]   /opt/ros/dashing/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.191s]   /opt/ros/dashing/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.192s]   CMakeLists.txt:45 (rosidl_generate_interfaces)
+[2.192s] 
+[2.192s] 
+[2.214s] CMake Warning at /opt/ros/dashing/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:176 (add_library):
+[2.214s]   Cannot generate a safe runtime search path for target
+[2.214s]   turtlebot3_msgs__python because files in some directories may conflict with
+[2.215s]   libraries in implicit directories:
+[2.215s] 
+[2.215s]     runtime library [libssl.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.215s]       /home/piai/anaconda3/lib
+[2.215s]     runtime library [libcrypto.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.216s]       /home/piai/anaconda3/lib
+[2.216s] 
+[2.216s]   Some of these libraries may not be found correctly.
+[2.216s] Call Stack (most recent call first):
+[2.217s]   /opt/ros/dashing/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.217s]   /opt/ros/dashing/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.217s]   CMakeLists.txt:45 (rosidl_generate_interfaces)
+[2.217s] 
+[2.217s] 
+[2.232s] -- Generating done
+[2.235s] -- Build files have been written to: /home/piai/turtlebot3_ws/src/build/turtlebot3_msgs
+[2.242s] Invoked command in '/home/piai/turtlebot3_ws/src/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/piai/turtlebot3_ws/src/turtlebot3_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/piai/turtlebot3_ws/src/install/turtlebot3_msgs
+[2.249s] Invoking command in '/home/piai/turtlebot3_ws/src/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=/opt/ros/dashing CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/piai/turtlebot3_ws/src/build/turtlebot3_msgs -- -j20 -l20
+[2.339s] [35m[1mScanning dependencies of target turtlebot3_msgs__cpp[0m
+[2.341s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.367s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.399s] Traceback (most recent call last):
+[2.399s]   File "/opt/ros/dashing/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 8, in <module>
+[2.400s]     from rosidl_generator_c import generate_c
+[2.400s]   File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_generator_c/__init__.py", line 15, in <module>
+[2.400s]     from rosidl_cmake import convert_camel_case_to_lower_case_underscore
+[2.400s]   File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_cmake/__init__.py", line 24, in <module>
+[2.400s]     from rosidl_parser.parser import parse_idl_file
+[2.401s]   File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_parser/parser.py", line 20, in <module>
+[2.401s]     from lark import Lark
+[2.401s] ModuleNotFoundError: No module named 'lark'
+[2.406s] CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/build.make:116: recipe for target 'rosidl_generator_c/turtlebot3_msgs/msg/sensor_state.h' failed
+[2.406s] make[2]: *** [rosidl_generator_c/turtlebot3_msgs/msg/sensor_state.h] Error 1
+[2.407s] CMakeFiles/Makefile2:181: recipe for target 'CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/all' failed
+[2.407s] make[1]: *** [CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/all] Error 2
+[2.407s] make[1]: *** Waiting for unfinished jobs....
+[2.425s] Traceback (most recent call last):
+[2.425s]   File "/opt/ros/dashing/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 8, in <module>
+[2.425s]     from rosidl_generator_cpp import generate_cpp
+[2.425s]   File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_generator_cpp/__init__.py", line 17, in <module>
+[2.426s]     from rosidl_cmake import generate_files
+[2.426s]   File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_cmake/__init__.py", line 24, in <module>
+[2.426s]     from rosidl_parser.parser import parse_idl_file
+[2.426s]   File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_parser/parser.py", line 20, in <module>
+[2.426s]     from lark import Lark
+[2.427s] ModuleNotFoundError: No module named 'lark'
+[2.431s] CMakeFiles/turtlebot3_msgs__cpp.dir/build.make:129: recipe for target 'rosidl_generator_cpp/turtlebot3_msgs/msg/sensor_state.hpp' failed
+[2.431s] make[2]: *** [rosidl_generator_cpp/turtlebot3_msgs/msg/sensor_state.hpp] Error 1
+[2.432s] CMakeFiles/Makefile2:417: recipe for target 'CMakeFiles/turtlebot3_msgs__cpp.dir/all' failed
+[2.432s] make[1]: *** [CMakeFiles/turtlebot3_msgs__cpp.dir/all] Error 2
+[2.432s] Makefile:140: recipe for target 'all' failed
+[2.432s] make: *** [all] Error 2

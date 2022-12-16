@@ -1,0 +1,47 @@
+[0.066s] Invoking command in '/home/piai/turtlebot3_ws/src/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=/opt/ros/dashing CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/piai/turtlebot3_ws/src/turtlebot3_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/piai/turtlebot3_ws/src/install/turtlebot3_msgs
+[0.102s] -- Found action_msgs: 0.7.4 (/opt/ros/dashing/share/action_msgs/cmake)
+[0.142s] -- Found PythonInterp: /home/piai/anaconda3/bin/python3 (found suitable version "3.9.15", minimum required is "3") 
+[0.142s] -- Using PYTHON_EXECUTABLE: /home/piai/anaconda3/bin/python3
+[0.425s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.435s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.471s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.476s] -- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+[0.584s] -- Found std_msgs: 0.7.1 (/opt/ros/dashing/share/std_msgs/cmake)
+[0.619s] -- Found PythonInterp: /home/piai/anaconda3/bin/python3 (found version "3.9.15") 
+[0.685s] CMake Error at /opt/ros/dashing/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.685s]   execute_process(/home/piai/anaconda3/bin/python3 -m rosidl_adapter
+[0.686s]   --package-name turtlebot3_msgs --arguments-file
+[0.686s]   /home/piai/turtlebot3_ws/src/build/turtlebot3_msgs/rosidl_adapter__arguments__turtlebot3_msgs.json
+[0.687s]   --output-dir
+[0.687s]   /home/piai/turtlebot3_ws/src/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs
+[0.687s]   --output-file
+[0.688s]   /home/piai/turtlebot3_ws/src/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs.idls)
+[0.689s]   returned error code 1:
+[0.690s] 
+[0.693s]   Traceback (most recent call last):
+[0.694s] 
+[0.694s]     File "/home/piai/anaconda3/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+[0.695s]       return _run_code(code, main_globals, None,
+[0.695s]     File "/home/piai/anaconda3/lib/python3.9/runpy.py", line 87, in _run_code
+[0.695s]       exec(code, run_globals)
+[0.695s]     File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.695s]       sys.exit(main())
+[0.696s]     File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.696s]       abs_idl_file = convert_to_idl(
+[0.697s]     File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/__init__.py", line 18, in convert_to_idl
+[0.697s]       from rosidl_adapter.msg import convert_msg_to_idl
+[0.697s]     File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/msg/__init__.py", line 16, in <module>
+[0.697s]       from rosidl_adapter.resource import expand_template
+[0.698s]     File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>
+[0.698s]       import em
+[0.698s] 
+[0.699s]   ModuleNotFoundError: No module named 'em'
+[0.701s] 
+[0.702s] Call Stack (most recent call first):
+[0.703s]   /opt/ros/dashing/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.704s]   CMakeLists.txt:45 (rosidl_generate_interfaces)
+[0.704s] 
+[0.705s] 
+[0.706s] -- Configuring incomplete, errors occurred!
+[0.707s] See also "/home/piai/turtlebot3_ws/src/build/turtlebot3_msgs/CMakeFiles/CMakeOutput.log".
+[0.717s] Invoked command in '/home/piai/turtlebot3_ws/src/build/turtlebot3_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/dashing CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/piai/turtlebot3_ws/src/turtlebot3_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/piai/turtlebot3_ws/src/install/turtlebot3_msgs
