@@ -1,0 +1,66 @@
+[0.074s] Invoking command in '/home/piai/turtlebot3_ws/src/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/dashing CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/piai/turtlebot3_ws/src/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/piai/turtlebot3_ws/src/install/dynamixel_sdk
+[0.219s] -- The C compiler identification is GNU 7.5.0
+[0.338s] -- The CXX compiler identification is GNU 7.5.0
+[0.350s] -- Detecting C compiler ABI info
+[0.423s] -- Detecting C compiler ABI info - done
+[0.442s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.443s] -- Detecting C compile features
+[0.443s] -- Detecting C compile features - done
+[0.448s] -- Detecting CXX compiler ABI info
+[0.545s] -- Detecting CXX compiler ABI info - done
+[0.566s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.566s] -- Detecting CXX compile features
+[0.567s] -- Detecting CXX compile features - done
+[0.570s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.621s] -- Found PythonInterp: /home/piai/anaconda3/bin/python3 (found suitable version "3.9.15", minimum required is "3") 
+[0.621s] -- Using PYTHON_EXECUTABLE: /home/piai/anaconda3/bin/python3
+[0.906s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.067s] -- Configuring done
+[1.074s] -- Generating done
+[1.075s] -- Build files have been written to: /home/piai/turtlebot3_ws/src/build/dynamixel_sdk
+[1.100s] Invoked command in '/home/piai/turtlebot3_ws/src/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/piai/turtlebot3_ws/src/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/piai/turtlebot3_ws/src/install/dynamixel_sdk
+[1.107s] Invoking command in '/home/piai/turtlebot3_ws/src/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/dashing CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --build /home/piai/turtlebot3_ws/src/build/dynamixel_sdk -- -j20 -l20
+[1.152s] [ 10%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o[0m
+[1.154s] [ 20%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o[0m
+[1.154s] [ 30%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o[0m
+[1.156s] [ 40%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o[0m
+[1.160s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o[0m
+[1.160s] [ 60%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o[0m
+[1.160s] [ 70%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o[0m
+[1.160s] [ 80%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o[0m
+[1.161s] [ 90%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o[0m
+[1.645s] [100%] [32m[1mLinking CXX shared library libdynamixel_sdk.so[0m
+[1.740s] [100%] Built target dynamixel_sdk
+[1.752s] Invoked command in '/home/piai/turtlebot3_ws/src/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --build /home/piai/turtlebot3_ws/src/build/dynamixel_sdk -- -j20 -l20
+[1.841s] Invoking command in '/home/piai/turtlebot3_ws/src/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/dashing CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --install /home/piai/turtlebot3_ws/src/build/dynamixel_sdk
+[1.849s] -- Install configuration: ""
+[1.850s] -- Execute custom install script
+[1.851s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[1.859s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[1.867s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[1.874s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[1.879s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[1.884s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[1.888s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[1.892s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[1.896s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[1.900s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[1.903s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[1.907s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[1.910s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[1.914s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[1.918s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[1.922s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[1.926s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[1.929s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[1.933s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[1.937s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[1.945s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[1.949s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[1.955s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[1.959s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.964s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[1.970s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[1.975s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[1.980s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[1.994s] Invoked command in '/home/piai/turtlebot3_ws/src/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --install /home/piai/turtlebot3_ws/src/build/dynamixel_sdk

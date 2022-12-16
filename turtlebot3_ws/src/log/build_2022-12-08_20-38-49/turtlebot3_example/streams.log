@@ -1,0 +1,28 @@
+[0.629s] Invoking command in '/home/piai/turtlebot3_ws/src/build/turtlebot3_example': AMENT_PREFIX_PATH=/home/piai/turtlebot3_ws/src/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/piai/turtlebot3_ws/src/install/turtlebot3_msgs CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/piai/turtlebot3_ws/src/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/piai/turtlebot3_ws/src/build/turtlebot3_example/prefix_override:/home/piai/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.6/site-packages:/home/piai/turtlebot3_ws/src/install/turtlebot3_msgs/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/piai/turtlebot3_ws/src/build/turtlebot3_example/build --no-deps install_data
+[0.847s] running develop
+[0.939s] running egg_info
+[0.939s] creating turtlebot3_example.egg-info
+[0.939s] writing turtlebot3_example.egg-info/PKG-INFO
+[0.940s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[0.940s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[0.940s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[0.940s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[0.940s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[0.970s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[0.971s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[0.972s] running build_ext
+[0.972s] Creating /home/piai/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.6/site-packages/site.py
+[0.973s] Creating /home/piai/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.6/site-packages/turtlebot3-example.egg-link (link to .)
+[0.974s] Installing turtlebot3_obstacle_detection script to /home/piai/turtlebot3_ws/src/install/turtlebot3_example/lib/turtlebot3_example
+[0.974s] Installing turtlebot3_patrol_client script to /home/piai/turtlebot3_ws/src/install/turtlebot3_example/lib/turtlebot3_example
+[0.975s] Installing turtlebot3_patrol_server script to /home/piai/turtlebot3_ws/src/install/turtlebot3_example/lib/turtlebot3_example
+[0.975s] Installing turtlebot3_position_control script to /home/piai/turtlebot3_ws/src/install/turtlebot3_example/lib/turtlebot3_example
+[0.975s] 
+[0.975s] Installed /home/piai/turtlebot3_ws/src/build/turtlebot3_example
+[0.975s] running install_data
+[0.976s] creating /home/piai/turtlebot3_ws/src/install/turtlebot3_example/share/ament_index
+[0.976s] creating /home/piai/turtlebot3_ws/src/install/turtlebot3_example/share/ament_index/resource_index
+[0.976s] creating /home/piai/turtlebot3_ws/src/install/turtlebot3_example/share/ament_index/resource_index/packages
+[0.976s] copying resource/turtlebot3_example -> /home/piai/turtlebot3_ws/src/install/turtlebot3_example/share/ament_index/resource_index/packages
+[0.977s] copying package.xml -> /home/piai/turtlebot3_ws/src/install/turtlebot3_example/share/turtlebot3_example
+[1.005s] Invoked command in '/home/piai/turtlebot3_ws/src/build/turtlebot3_example' returned '0': AMENT_PREFIX_PATH=/home/piai/turtlebot3_ws/src/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/piai/turtlebot3_ws/src/install/turtlebot3_msgs CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/piai/turtlebot3_ws/src/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/piai/turtlebot3_ws/src/build/turtlebot3_example/prefix_override:/home/piai/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.6/site-packages:/home/piai/turtlebot3_ws/src/install/turtlebot3_msgs/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/piai/turtlebot3_ws/src/build/turtlebot3_example/build --no-deps install_data

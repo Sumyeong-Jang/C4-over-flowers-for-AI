@@ -1,0 +1,212 @@
+[0.060s] Invoking command in '/home/piai/turtlebot3_ws/src/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/dashing CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/piai/turtlebot3_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces
+[0.192s] -- The C compiler identification is GNU 7.5.0
+[0.304s] -- The CXX compiler identification is GNU 7.5.0
+[0.320s] -- Detecting C compiler ABI info
+[0.415s] -- Detecting C compiler ABI info - done
+[0.429s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.430s] -- Detecting C compile features
+[0.430s] -- Detecting C compile features - done
+[0.435s] -- Detecting CXX compiler ABI info
+[0.550s] -- Detecting CXX compiler ABI info - done
+[0.565s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.565s] -- Detecting CXX compile features
+[0.566s] -- Detecting CXX compile features - done
+[0.569s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.622s] -- Found PythonInterp: /home/piai/anaconda3/bin/python3 (found suitable version "3.9.15", minimum required is "3") 
+[0.623s] -- Using PYTHON_EXECUTABLE: /home/piai/anaconda3/bin/python3
+[0.902s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.924s] -- Found builtin_interfaces: 0.7.4 (/opt/ros/dashing/share/builtin_interfaces/cmake)
+[0.936s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.967s] -- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+[1.076s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1")  
+[1.091s] -- Found FastRTPS: /opt/ros/dashing/include  
+[1.234s] -- Found PythonInterp: /home/piai/anaconda3/bin/python3 (found version "3.9.15") 
+[1.428s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[1.434s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[1.559s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[1.611s] -- Found PythonInterp: /home/piai/anaconda3/bin/python3 (found suitable version "3.9.15", minimum required is "3.5") 
+[1.615s] -- Found python_cmake_module: 0.7.11 (/opt/ros/dashing/share/python_cmake_module/cmake)
+[1.676s] -- Found PythonLibs: /home/piai/anaconda3/lib/libpython3.9.so (found suitable version "3.9.15", minimum required is "3.5") 
+[1.676s] -- Using PYTHON_EXECUTABLE: /home/piai/anaconda3/bin/python3
+[1.676s] -- Using PYTHON_INCLUDE_DIRS: /home/piai/anaconda3/include/python3.9
+[1.676s] -- Using PYTHON_LIBRARIES: /home/piai/anaconda3/lib/libpython3.9.so
+[1.718s] -- Found PythonExtra: .so  
+[2.363s] -- Using numpy include directory: /home/piai/anaconda3/lib/python3.9/site-packages/numpy/core/include
+[2.385s] -- Configuring done
+[2.443s] [33mCMake Warning at /opt/ros/dashing/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:176 (add_library):
+[2.443s]   Cannot generate a safe runtime search path for target
+[2.443s]   dynamixel_sdk_custom_interfaces__python because files in some directories
+[2.444s]   may conflict with libraries in implicit directories:
+[2.444s] 
+[2.444s]     runtime library [libssl.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.444s]       /home/piai/anaconda3/lib
+[2.444s]     runtime library [libcrypto.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.445s]       /home/piai/anaconda3/lib
+[2.445s] 
+[2.445s]   Some of these libraries may not be found correctly.
+[2.445s] Call Stack (most recent call first):
+[2.445s]   /opt/ros/dashing/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.446s]   /opt/ros/dashing/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.446s]   CMakeLists.txt:31 (rosidl_generate_interfaces)
+[2.446s] 
+[2.446s] [0m
+[2.447s] [33mCMake Warning at /opt/ros/dashing/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:229 (add_library):
+[2.447s]   Cannot generate a safe runtime search path for target
+[2.447s]   dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext because files
+[2.447s]   in some directories may conflict with libraries in implicit directories:
+[2.448s] 
+[2.448s]     runtime library [libssl.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.448s]       /home/piai/anaconda3/lib
+[2.448s]     runtime library [libcrypto.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.448s]       /home/piai/anaconda3/lib
+[2.448s] 
+[2.449s]   Some of these libraries may not be found correctly.
+[2.449s] Call Stack (most recent call first):
+[2.449s]   /opt/ros/dashing/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.449s]   /opt/ros/dashing/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.449s]   CMakeLists.txt:31 (rosidl_generate_interfaces)
+[2.449s] 
+[2.450s] [0m
+[2.451s] [33mCMake Warning at /opt/ros/dashing/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:229 (add_library):
+[2.451s]   Cannot generate a safe runtime search path for target
+[2.452s]   dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.452s]   because files in some directories may conflict with libraries in implicit
+[2.452s]   directories:
+[2.452s] 
+[2.452s]     runtime library [libssl.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.452s]       /home/piai/anaconda3/lib
+[2.453s]     runtime library [libcrypto.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.453s]       /home/piai/anaconda3/lib
+[2.453s] 
+[2.453s]   Some of these libraries may not be found correctly.
+[2.453s] Call Stack (most recent call first):
+[2.453s]   /opt/ros/dashing/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.454s]   /opt/ros/dashing/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.454s]   CMakeLists.txt:31 (rosidl_generate_interfaces)
+[2.454s] 
+[2.454s] [0m
+[2.454s] -- Generating done
+[2.456s] -- Build files have been written to: /home/piai/turtlebot3_ws/src/build/dynamixel_sdk_custom_interfaces
+[2.464s] Invoked command in '/home/piai/turtlebot3_ws/src/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/piai/turtlebot3_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces
+[2.469s] Invoking command in '/home/piai/turtlebot3_ws/src/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/dashing CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --build /home/piai/turtlebot3_ws/src/build/dynamixel_sdk_custom_interfaces -- -j20 -l20
+[2.516s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.521s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.942s] [  5%] Built target dynamixel_sdk_custom_interfaces__cpp
+[2.949s] [  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.954s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.999s] [ 13%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/get_position__functions.c.o[0m
+[3.000s] [ 16%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position__functions.c.o[0m
+[3.067s] [ 18%] [32m[1mLinking C shared library libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so[0m
+[3.110s] [ 18%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+[3.120s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.314s] [ 24%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_sdk_custom_interfaces/msg/set_position__type_support.cpp.o[0m
+[3.316s] [ 27%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_sdk_custom_interfaces/srv/get_position__type_support.cpp.o[0m
+[3.344s] [ 29%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_sdk_custom_interfaces/msg/dds_fastrtps/set_position__type_support.cpp.o[0m
+[3.345s] [ 32%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_sdk_custom_interfaces/srv/dds_fastrtps/get_position__type_support.cpp.o[0m
+[3.473s] [ 35%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_sdk_custom_interfaces/msg/set_position__type_support.c.o[0m
+[3.476s] [ 37%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_sdk_custom_interfaces/srv/get_position__type_support.c.o[0m
+[3.519s] [ 40%] [32m[1mLinking C shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.559s] [ 40%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c
+[3.562s] [ 43%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.617s] [ 43%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp
+[3.718s] [ 45%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.819s] [ 45%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.831s] [ 48%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.832s] [ 51%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.170s] [ 54%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_sdk_custom_interfaces/msg/set_position__type_support.cpp.o[0m
+[4.171s] [ 56%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_sdk_custom_interfaces/srv/get_position__type_support.cpp.o[0m
+[4.227s] [ 59%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_sdk_custom_interfaces/srv/get_position__type_support_c.cpp.o[0m
+[4.229s] [ 62%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_sdk_custom_interfaces/msg/set_position__type_support_c.cpp.o[0m
+[4.506s] [ 64%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so[0m
+[4.532s] [ 67%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.602s] [ 67%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp
+[4.627s] [ 67%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c
+[4.640s] [ 70%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.976s] [ 72%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_sdk_custom_interfaces/msg/set_position__type_support.cpp.o[0m
+[4.976s] [ 75%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_sdk_custom_interfaces/srv/get_position__type_support.cpp.o[0m
+[5.014s] [ 78%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so[0m
+[5.071s] [ 78%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c
+[5.088s] [ 78%] Built target dynamixel_sdk_custom_interfaces
+[5.113s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.769s] [ 81%] Built target dynamixel_sdk_custom_interfaces__py
+[5.794s] [ 83%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__python.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/msg/_set_position_s.c.o[0m
+[5.795s] [ 86%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__python.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/srv/_get_position_s.c.o[0m
+[5.921s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/libdynamixel_sdk_custom_interfaces__python.so[0m
+[5.997s] [ 89%] Built target dynamixel_sdk_custom_interfaces__python
+[6.022s] [ 91%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.024s] [ 94%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.120s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-39-x86_64-linux-gnu.so[0m
+[6.127s] [100%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-39-x86_64-linux-gnu.so[0m
+[6.190s] [100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext
+[6.194s] [100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[6.207s] Invoked command in '/home/piai/turtlebot3_ws/src/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --build /home/piai/turtlebot3_ws/src/build/dynamixel_sdk_custom_interfaces -- -j20 -l20
+[6.335s] Invoking command in '/home/piai/turtlebot3_ws/src/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/dashing CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --install /home/piai/turtlebot3_ws/src/build/dynamixel_sdk_custom_interfaces
+[6.346s] -- Install configuration: ""
+[6.347s] -- Execute custom install script
+[6.348s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/dynamixel_sdk_custom_interfaces
+[6.355s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/set_position.hpp
+[6.360s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/set_position__struct.hpp
+[6.366s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/set_position__traits.hpp
+[6.371s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/get_position.hpp
+[6.377s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/get_position__struct.hpp
+[6.382s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/get_position__traits.hpp
+[6.392s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.397s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/set_position.h
+[6.403s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/set_position__functions.h
+[6.409s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/set_position__struct.h
+[6.414s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/set_position__type_support.h
+[6.420s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/get_position.h
+[6.428s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/get_position__functions.h
+[6.436s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/get_position__struct.h
+[6.443s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/get_position__type_support.h
+[6.449s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.sh
+[6.455s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so
+[6.460s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so
+[6.466s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so
+[6.471s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.475s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/set_position__rosidl_typesupport_introspection_c.h
+[6.485s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/get_position__rosidl_typesupport_introspection_c.h
+[6.489s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so
+[6.496s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/set_position__rosidl_typesupport_introspection_cpp.hpp
+[6.504s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/get_position__rosidl_typesupport_introspection_cpp.hpp
+[6.512s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so
+[6.518s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.523s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/set_position__rosidl_typesupport_fastrtps_c.h
+[6.527s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/get_position__rosidl_typesupport_fastrtps_c.h
+[6.531s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so
+[6.536s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.540s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/set_position__rosidl_typesupport_fastrtps_cpp.hpp
+[6.543s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/get_position__rosidl_typesupport_fastrtps_cpp.hpp
+[6.547s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[6.551s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.sh
+[6.555s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.9/site-packages/dynamixel_sdk_custom_interfaces/__init__.py
+[6.559s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.9/site-packages/dynamixel_sdk_custom_interfaces/msg/__init__.py
+[6.563s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.9/site-packages/dynamixel_sdk_custom_interfaces/msg/_set_position.py
+[6.567s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.9/site-packages/dynamixel_sdk_custom_interfaces/srv/__init__.py
+[6.572s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.9/site-packages/dynamixel_sdk_custom_interfaces/srv/_get_position.py
+[6.577s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.9/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-39-x86_64-linux-gnu.so
+[6.582s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.9/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-39-x86_64-linux-gnu.so
+[6.586s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__python.so
+[6.590s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.idl
+[6.594s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.idl
+[6.598s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.msg
+[6.602s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.srv
+[6.606s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition_Request.msg
+[6.610s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition_Response.msg
+[6.613s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_custom_interfaces
+[6.617s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_custom_interfaces
+[6.621s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.sh
+[6.625s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.sh
+[6.629s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.bash
+[6.633s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.sh
+[6.636s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.zsh
+[6.640s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/packages/dynamixel_sdk_custom_interfaces
+[6.645s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[6.649s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.653s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.657s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[6.661s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig.cmake
+[6.665s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig-version.cmake
+[6.669s] -- Symlinking: /home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.xml
+[6.740s] Compiling '/home/piai/turtlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.9/site-packages/dynamixel_sdk_custom_interfaces/__init__.py'...
+[6.758s] Invoked command in '/home/piai/turtlebot3_ws/src/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --install /home/piai/turtlebot3_ws/src/build/dynamixel_sdk_custom_interfaces

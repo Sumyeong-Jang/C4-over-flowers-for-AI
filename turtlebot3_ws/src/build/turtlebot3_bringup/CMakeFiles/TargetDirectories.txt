@@ -1,0 +1,8 @@
+/home/piai/turtlebot3_ws/src/build/turtlebot3_bringup/CMakeFiles/install/strip.dir
+/home/piai/turtlebot3_ws/src/build/turtlebot3_bringup/CMakeFiles/install/local.dir
+/home/piai/turtlebot3_ws/src/build/turtlebot3_bringup/CMakeFiles/test.dir
+/home/piai/turtlebot3_ws/src/build/turtlebot3_bringup/CMakeFiles/list_install_components.dir
+/home/piai/turtlebot3_ws/src/build/turtlebot3_bringup/CMakeFiles/uninstall.dir
+/home/piai/turtlebot3_ws/src/build/turtlebot3_bringup/CMakeFiles/edit_cache.dir
+/home/piai/turtlebot3_ws/src/build/turtlebot3_bringup/CMakeFiles/rebuild_cache.dir
+/home/piai/turtlebot3_ws/src/build/turtlebot3_bringup/CMakeFiles/install.dir

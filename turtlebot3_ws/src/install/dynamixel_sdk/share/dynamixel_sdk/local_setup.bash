@@ -1,0 +1,1 @@
+/home/piai/turtlebot3_ws/src/build/dynamixel_sdk/ament_cmake_environment_hooks/local_setup.bash
