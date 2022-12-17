@@ -75,16 +75,16 @@ dwb_controller:
     decel_lim_y: 0.0
     decel_lim_theta: -3.2
     vx_samples: 20
-    vy_samples: 5
-    vtheta_samples: 20
-    sim_time: 1.7
+    vy_samples: 0
+    vtheta_samples: 40
+    sim_time: 1.5
     linear_granularity: 0.05
-    xy_goal_tolerance: 0.25
+    xy_goal_tolerance: 0.05
     transform_tolerance: 0.2
     critics: ["RotateToGoal", "Oscillation", "BaseObstacle", "GoalAlign", "PathAlign", "PathDist", "GoalDist"]
     BaseObstacle.scale: 0.02
-    PathAlign.scale: 0.0
-    GoalAlign.scale: 0.0
+    PathAlign.scale: 32.0
+    GoalAlign.scale: 24.0
     PathDist.scale: 32.0
     GoalDist.scale: 24.0
     RotateToGoal.scale: 32.0
@@ -100,7 +100,7 @@ local_costmap:
       width: 3
       height: 3
       resolution: 0.05
-      robot_radius: 0.105
+      robot_radius: 0.1
       inflation_layer.cost_scaling_factor: 3.0
       obstacle_layer:
         enabled: True
