@@ -5,7 +5,7 @@ from move_base_msgs.msg import MoveBaseAction, MoveBaseGoal
 from math import radians, degrees
 from actionlib_msgs.msg import *
 from geometry_msgs.msg import Point
-from sound_play.libsoundplay import SoundClient
+#from sound_play.libsoundplay import SoundClient
 
 class map_navigation():
 
@@ -27,18 +27,18 @@ class map_navigation():
 
 	def __init__(self):
 
-		sc = SoundClient()
-		path_to_sounds = "/home/ros/catkin_ws/src/gaitech_edu/src/sounds/"
+		#sc = SoundClient()
+		#path_to_sounds = "/home/ros/catkin_ws/src/gaitech_edu/src/sounds/"
 
 		# declare the coordinates of interest
-		self.xCafe =  7.31
-		self.yCafe = 1.46
-		self.xOffice1 = 5.10
-		self.yOffice1 = -3.82
-		self.xOffice2 = -2.35
-		self.yOffice2 = -0.95
-		self.xOffice3 = 35.20
-		self.yOffice3 = 13.50
+		self.xCafe =  1.26
+		self.yCafe = 0.84
+		self.xOffice1 = 3.15
+		self.yOffice1 = -0.84
+		self.xOffice2 = 3.78
+		self.yOffice2 = 2.07
+		self.xOffice3 = 2.50
+		self.yOffice3 = 5.55
 		self.goalReached = False
 		# initiliaze
 		rospy.init_node('map_navigation', anonymous=False)
@@ -66,13 +66,13 @@ class map_navigation():
 				rospy.loginfo("Congratulations!")
 				#rospy.spin()
 
-				sc.playWave(path_to_sounds+"ship_bell.wav")
+				#sc.playWave(path_to_sounds+"ship_bell.wav")
 
 				#rospy.spin()
 
 			else:
 				rospy.loginfo("Hard Luck!")
-				sc.playWave(path_to_sounds+"short_buzzer.wav")
+				#sc.playWave(path_to_sounds+"short_buzzer.wav")
 
 		while choice != 'q':
 			choice = self.choose()
@@ -98,11 +98,11 @@ class map_navigation():
 					rospy.loginfo("Congratulations!")
 					#rospy.spin()
 
-					sc.playWave(path_to_sounds+"ship_bell.wav")
+					#sc.playWave(path_to_sounds+"ship_bell.wav")
 
 				else:
 					rospy.loginfo("Hard Luck!")
-					sc.playWave(path_to_sounds+"short_buzzer.wav")
+					#sc.playWave(path_to_sounds+"short_buzzer.wav")
 
 
 	def shutdown(self):
